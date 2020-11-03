@@ -65,97 +65,109 @@ sort::bubble(T start, T end);
 Cocktail shaker sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::shaker(T start, T end);
 ```
 
 Comb sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::comb(T start, T end);
 ```
 
 Odd–even sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::oddeven(T start, T end);
 ```
 
 Insertion sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::insertion(T start, T end);
 ```
 
 Selection Sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::selection(T start, T end);
 ```
 
 Shell sort and some variations:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::shell(T start, T end);
+template <typename T>
+sort::shellhib(T start, T end);
+template <typename T>
+sort::shellsedgwick(T start, T end);
+template <typename T>
+sort::shellpratt(T start, T end);
+template <typename T>
+sort::shell1(T start, T end);
+template <typename T>
+sort::shell2(T start, T end);
+template <typename T>
+sort::shell3(T start, T end);
 ```
 
 Tree sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::tree(T start, T end);
 ```
 
 Gnome sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::gnome(T start, T end);
 ```
 
 Heap sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::heap(T start, T end);
 ```
 
 Quick sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::quick(T start, T end);
 ```
 
 Merge Sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::merge(T start, T end);
 ```
 
 Bucket sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::bucket(T start, T end);
 ```
 
 Least significant digit (LSD) Radix sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::lsd(T start, T end);
 ```
 
 Most significant digit (LSD) Radix sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::msd(T start, T end);
 ```
 
 Bitonic Sort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::bitonic(T start, T end);
 ```
 
 Timsort:
 ```
 template <typename T>
-sort::bubble(T start, T end);
+sort::tim(T start, T end);
 ```
 
 In most algorithms you can specify a compare function in the third parameter:
